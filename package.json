@@ -1,0 +1,9 @@
+{
+    "name": "Mi primer Proyecto",
+    "version": "0.0.1",
+    "description": "Mi primer poryecto en angular en un entorno profesional",
+    "main": "server.js",
+    "dependencies": {
+        "express": "~3.x",
+        "mongoose": "latest"
+    }
