@@ -1,4 +1,3 @@
 # Borde
-Trabajos de Borde
 
-Esta es mi primera prueba con git hub.
+Este sera mi primer proyecto con angular en un entorno profesional de desarrollo.

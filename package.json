@@ -1,0 +1,10 @@
+{
+  "name": "Mi-primer-programa",
+  "version": "0.0.1",
+  "description": "Mi primer proyecto desarrollado en angular.js, en un entorno profesional",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.x",
+    "mongoose": "latest"
+    }
+  }
