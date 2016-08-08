@@ -5,7 +5,7 @@ var app         = express();
 var mongoose     = require('mongoose');
 
 // Conexión con la base de datos
-mongoose.connect('mongodb://localhost:27017/Pruebas');
+mongoose.connect('mongodb://localhost:27017/angular-todo');
 
 // Configuración
 app.configure(function() {
@@ -19,7 +19,8 @@ app.configure(function() {
     app.use(express.methodOverride());
 });
 
-var Todo = mongoose.model('pruebas', {
+// Definición de modelos
+var Todo = mongoose.model('Todo', {
     text: String
 });
 
