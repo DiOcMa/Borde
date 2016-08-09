@@ -1,5 +1,5 @@
 {
-    "name": "angular-todo",
+    "name": "Lista_ABC",
     "version": "0.0.1",
     "description": "Simple Angular TODO app based in MEAN stack",
     "main": "server.js",

@@ -1,8 +1,13 @@
 //server.js
 
-var express     = require('express');
-var app         = express();
-var mongoose     = require('mongoose');
+var express = require('express');
+var app = express();
+var mongoose = require('mongoose');
+
+app.use('/', express.static(__dirname + '/www')); // redirect root
+app.use('/js', express.static(__dirname + '/node_modules/bootstrap/dist/js')); // redirect bootstrap JS
+app.use('/js', express.static(__dirname + '/node_modules/jquery/dist')); // redirect JS jQuery
+app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css')); // redirect CSS bootstrap
 
 // Conexión con la base de datos
 mongoose.connect('mongodb://localhost:27017/Pruebas');

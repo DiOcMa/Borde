@@ -1,4 +1,4 @@
-angular.module('angularTodo', []);
+angular.module('Lista_ABC', []);
 
 function mainController($scope, $http) {
     $scope.formData = {};
