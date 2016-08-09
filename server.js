@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/angular-todo');
+mongoose.connect('mongodb://localhost:27017/Pruebas');
 
 app.configure(function() {
   app.use(express.static(__dirname + '/public'));
